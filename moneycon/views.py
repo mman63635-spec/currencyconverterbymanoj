@@ -63,7 +63,7 @@ def currency_converter_view(request):
 
 
 
-    return render(request, 'moneycon\home.html', {'result': result, 'rate': rate})
+    return render(request, 'moneycon/home.html', {'result': result, 'rate': rate})
 
 
 
